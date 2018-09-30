@@ -1,5 +1,5 @@
 # Leetcode Practice Group at UC Santa Cruz
-:bangbang::bangbang: Pull before you Push :bangbang::bangbang:
+:bangbang::bangbang: ```pull``` before you ```push``` :bangbang::bangbang:
 
 ## Contributors ##
 [emmicourt](https://github.com/emmicourt)
