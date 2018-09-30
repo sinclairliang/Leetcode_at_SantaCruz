@@ -1,4 +1,5 @@
 # Leetcode Practice Group at UC Santa Cruz
+:bangbang::bangbang: Pull before you Push :bangbang::bangbang:
 
 ## Contributors ##
 [emmicourt](https://github.com/emmicourt)
