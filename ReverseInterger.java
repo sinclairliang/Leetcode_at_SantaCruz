@@ -29,7 +29,5 @@ class Solution {
             // if out of bounds;
             return 0;
         }
-            
-    
     }
 }
