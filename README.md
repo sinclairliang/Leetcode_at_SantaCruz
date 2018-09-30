@@ -15,3 +15,5 @@
 
 
 [Sinclair Liang](https://github.com/sinclairliang)
+
+[Bryan Ji](https://github.com/bxji/)
