@@ -1,0 +1,17 @@
+// https://leetcode.com/explore/interview/card/top-interview-questions-easy/127/strings/881/
+
+class Solution {
+public:
+    int firstUniqChar(string s) {
+        
+        unordered_map<char, int> m;
+        
+        for (auto& c : s) {
+            ++m[c];
+        }
+        for (int i = 0; i < s.size(); ++i) {
+            if (m[s[i]] == 1) return i;
+        }
+        return -1;
+    }
+};
