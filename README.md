@@ -4,19 +4,17 @@
 ## Contributors ##
 [emmicourt](https://github.com/emmicourt)
 
-
 [ablimm](https://github.com/ablimm)
-
 
 [syakter](https://github.com/syakter)
 
-
 [DhiKrishna399](https://github.com/DhiKrishna399)
-
 
 [Sinclair Liang](https://github.com/sinclairliang)
 
 [Bryan Ji](https://github.com/bxji/)
+
+[Egan Bisma](https://github.com/VVNoodle)
 
 ## Meeting time and locations
 
