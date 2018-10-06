@@ -14,7 +14,7 @@ class Solution {
             // special case: true if empty;
             return true;
         }
-        
+
         Stack<Integer> stack = new Stack<Integer>();
         
         ListNode fast = head;
