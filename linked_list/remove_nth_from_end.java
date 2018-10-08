@@ -9,7 +9,7 @@
 class Solution {
     public ListNode removeNthFromEnd(ListNode head, int n) {
         
-        // using two pointer technique;
+        // using two pointer (runner) technique;
         ListNode fast = head;
         ListNode slow = head;
         
@@ -37,9 +37,6 @@ class Solution {
             // otherwise, we just remove the first node;
             head = head.next;
         }
-        
         return head;
-        
-        
     }
 }
