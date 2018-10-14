@@ -27,4 +27,9 @@
 |Monday 10/8/2018|5:00 - 7:00|S&E332|       |   |
 |Tuesday 10/9/2018|6:00 - 8:00|S&E309|      |   |
 |Thursday 10/11/2018|6:00 - 8:00|S&E332|    |   |
-|Saturday 10/13/2018|4:00 - 6:00|MCH2359|    |   |
+|Saturday 10/13/2018|4:00 - 6:00|MCH2359|   |   |
+
+
+## subscribe to our calendar ##
+
+[Calender](https://calendar.google.com/calendar/embed?src=ucsc.edu_gsdfo2aabuefup3p6i5ntn0alc%40group.calendar.google.com&ctz=America%2FLos_Angeles)
