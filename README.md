@@ -16,6 +16,8 @@
 
 [Egan Bisma](https://github.com/VVNoodle)
 
+[Catherine Lee](https://github.com/catherinelee274)
+
 ## Meeting time and locations
 
 |Date|Time|Location|Notes|Review|
