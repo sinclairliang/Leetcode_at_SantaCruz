@@ -14,9 +14,11 @@ class Solution {
         
         for(int i=0; i<n; i++)
         {
+            // traverse the char array again and find the last index of such letter(char);
             last = Math.max(last, map.get(S1[i]));
             if(i == last)
             {
+                // if i is the last, it must be the location;
                 res.add(i-start+1);
                 start = i+1;
             }
