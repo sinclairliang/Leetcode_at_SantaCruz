@@ -16,6 +16,8 @@
 
 [Egan Bisma](https://github.com/VVNoodle)
 
+[Catherine Lee](https://github.com/catherinelee274)
+
 ## Meeting time and locations
 
 |Date|Time|Location|Notes|Review|
@@ -32,6 +34,7 @@
 |Tuesday 10/16/2018|7:00 - 9:00|MCH3366|   |   |
 |Thursday 10/18/2018|5:00 - 7:00|MCH3368|   |   |
 |Saturday 10/20/2018|4:00 - 6:00|S&E332|   |   |
+|Monday 10/22/2018|7:00 - 9:00|MCH3370|   |   |
 |Thursday 10/25/2018|5:00 - 7:00|MCH3366|   |   |
 
 
