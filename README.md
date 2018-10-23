@@ -22,18 +22,6 @@
 
 |Date|Time|Location|Notes|Review|
 |---|---|---|---|---|
-|Monday 10/1/2018|5:00 - 7:00|MCH3368|      |   |
-|Tuesday 10/2/2018|6:00 - 8:00|MCH3362|     |   |
-|Thursday 10/4/2018|6:00 - 8:00|MCH3364|    |   |
-|Saturday 10/6/2018|4:00 - 6:00|S&E332|     |   |
-|Monday 10/8/2018|5:00 - 7:00|S&E332|       |   |
-|Tuesday 10/9/2018|6:00 - 8:00|S&E309|      |   |
-|Thursday 10/11/2018|6:00 - 8:00|S&E332|    |   |
-|Saturday 10/13/2018|4:00 - 6:00|MCH2359|Dynamic Programming |   |
-|Monday 10/15/2018|7:00 - 9:00|MCH2351|   |   |
-|Tuesday 10/16/2018|7:00 - 9:00|MCH3366|   |   |
-|Thursday 10/18/2018|5:00 - 7:00|MCH3368|   |   |
-|Saturday 10/20/2018|4:00 - 6:00|S&E332|   |   |
 |Monday 10/22/2018|7:00 - 9:00|MCH3370|   |   |
 |Wednesday 10/24/2018|9:30pm - 12:00|Woodstock's Pizza|Social Event|   |
 |Thursday 10/25/2018|5:00 - 7:00|MCH3366|   |   |
