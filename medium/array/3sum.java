@@ -1,9 +1,12 @@
 class Solution {
     public List<List<Integer>> threeSum(int[] nums) {
+        // I have two pointers to keep track the value of sum;
         List<List<Integer>> res = new ArrayList<List<Integer>>();
+        // a list of lists that contains every results;
         
         if(nums == null || nums.length<3)
         {
+            // if nums are shorter than 3;
             return res;
         }
         
@@ -31,11 +34,13 @@ class Solution {
                         
                         while(j<k && nums[j] == nums[j-1])
                         {
+                            // increment the pointer until we see the number changes;
                             j++;
                         }
                         
                         while(j<k && nums[k] == nums[k+1])
                         {
+                            // decrement the pointer until we see the number changes;
                             k--;
                         }
                     }
@@ -50,7 +55,6 @@ class Solution {
                 }
             }
         }
-        
         return res;
     }
 }
