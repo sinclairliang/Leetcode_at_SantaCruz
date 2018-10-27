@@ -1,42 +1,51 @@
-public class Solution {
-    public boolean exist(char[][] board, String word) {
-        if (word == null || word.length() == 0) {
+class Solution {
+    public boolean exist(char[][] board, String word) 
+    {
+        if(board.length==0)
+        {
             return false;
         }
-        boolean[][] isBeingVisited = new boolean[board.length][board[0].length];
-        for (int i = 0; i < board.length; ++i) {
-            for (int j = 0; j < board[0].length; ++j) {
-                if (board[i][j] == word.charAt(0) &&
-                    dfs(board, word, isBeingVisited, 0, i, j)) {
+        int h = board.length;
+        int w = board[0].length;
+        for(int i=0; i<w; i++)
+        {
+            for(int j=0; j<h; j++)
+            {
+                if(search(board, word, 0, i, j))
+                {
                     return true;
                 }
             }
         }
-        return false;
+        return false; 
     }
     
-    private boolean dfs(char[][] board, String word, boolean[][] isBeingVisited, int index, int row, int col) {
-        if (index == word.length()) {  // reached the end of the word
+    
+    private boolean search(char[][] board, String word, int d, int x, int y)
+    {
+        int h = board.length;
+        int w = board[0].length;
+        char[] word_char = word.toCharArray(); 
+        if(x<0 || x==w || y<0 || y==h || word_char[d] != board[y][x])
+        {
+            return false;
+        }
+        
+        if(d == word.length() - 1)
+        {
             return true;
         }
-        if (row < 0 || row >= board.length || col < 0 || col >= board[0].length
-            || isBeingVisited[row][col] || word.charAt(index) != board[row][col]) {
-            return false;    
-        }
-        isBeingVisited[row][col] = true;
-        if (dfs(board, word, isBeingVisited, index + 1, row - 1, col)) {
-            return true;
-        }
-        if (dfs(board, word, isBeingVisited, index + 1, row + 1, col)) {
-            return true;
-        }
-        if (dfs(board, word, isBeingVisited, index + 1, row, col - 1)) {
-            return true;
-        }
-        if (dfs(board, word, isBeingVisited, index + 1, row, col + 1)) {
-            return true;
-        }
-        isBeingVisited[row][col] = false;  // umark current point; it might be used in other routes
-        return false;
+        
+        char cur = board[y][x];
+        board[y][x] = 0;
+        
+        boolean found = search(board, word, d+1, x+1, y) 
+            || search(board, word, d+1, x-1, y) 
+            || search(board, word, d+1, x, y+1) 
+            || search(board, word, d+1, x, y-1);
+        
+        board[y][x] = cur;
+        return found;
+        
     }
 }
