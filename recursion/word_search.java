@@ -3,10 +3,13 @@ class Solution {
     {
         if(board.length==0)
         {
+            // da;
             return false;
         }
+        
         int h = board.length;
         int w = board[0].length;
+
         for(int i=0; i<w; i++)
         {
             for(int j=0; j<h; j++)
@@ -21,28 +24,31 @@ class Solution {
     }
     
     
-    private boolean search(char[][] board, String word, int d, int x, int y)
+    private boolean search(char[][] board, String word, int index, int x, int y)
     {
-        int h = board.length;
-        int w = board[0].length;
-        char[] word_char = word.toCharArray(); 
-        if(x<0 || x==w || y<0 || y==h || word_char[d] != board[y][x])
+
+        char[] word_char = word.toCharArray(); // convert word to char array;
+
+        if(x<0 || x==board[0].length || y<0 || y==board.length || word_char[index] != board[y][x])
         {
+            // return false when out of bounds;
             return false;
         }
         
-        if(d == word.length() - 1)
+        if(index == word.length() - 1)
         {
+            // finished all the characters in the word;
             return true;
         }
         
         char cur = board[y][x];
         board[y][x] = 0;
         
-        boolean found = search(board, word, d+1, x+1, y) 
-            || search(board, word, d+1, x-1, y) 
-            || search(board, word, d+1, x, y+1) 
-            || search(board, word, d+1, x, y-1);
+        // recursively go to all directions;
+        boolean found = search(board, word, index+1, x+1, y) 
+            || search(board, word, index+1, x-1, y) 
+            || search(board, word, index+1, x, y+1) 
+            || search(board, word, index+1, x, y-1);
         
         board[y][x] = cur;
         return found;
