@@ -6,13 +6,10 @@ class Solution {
             // da;
             return false;
         }
-        
-        int h = board.length;
-        int w = board[0].length;
 
-        for(int i=0; i<w; i++)
+        for(int i=0; i<board[0].length; i++)
         {
-            for(int j=0; j<h; j++)
+            for(int j=0; j<board.length; j++)
             {
                 if(search(board, word, 0, i, j))
                 {

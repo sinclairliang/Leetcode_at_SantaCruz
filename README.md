@@ -22,11 +22,10 @@
 
 |Date|Time|Location|Notes|Review|
 |---|---|---|---|---|
-|Monday 10/22/2018|7:00 - 9:00|MCH3370  |     |   |
-|Tuesday 10/23/2018|7:00 - 9:00|MCH3368 |    |   |
-|Wednesday 10/24/2018|9:30pm - 12:00|Woodstock's Pizza|Social Event|   |
-|Thursday 10/25/2018|5:00 - 7:00|MCH3366|   |   |
-|Saturday 10/27/2018|4:00 - 6:00|MCH3368|   |   |
+|Monday 10/29/2018|7:00 - 9:00|MCH3360  |     |   |
+|Saturday 11/03/2018|4:00 - 6:00|S&E332|   |   |
+
+## I know it is midterm week for all of us, I wish you the best of luck in your upcoming exams
 
 
 ## subscribe to our calendar ##
