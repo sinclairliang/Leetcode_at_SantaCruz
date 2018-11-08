@@ -10,6 +10,7 @@ import java.util.ArrayList;
  * }
  */
 class Solution {
+    // I used a helper function to recursively add stuff the the string List;
     public List<String> binaryTreePaths(TreeNode root) {
         List<String> res = new ArrayList<String>();
         if(root != null)
