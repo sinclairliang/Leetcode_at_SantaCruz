@@ -22,8 +22,8 @@
 
 |Date|Time|Location|Notes|Review|
 |---|---|---|---|---|
-|Monday 10/29/2018|7:00 - 9:00|MCH3360  |     |   |
-|Saturday 11/03/2018|4:00 - 6:00|S&E332|   |   |
+|Monday 11/19/2018|5:30 - 7:30|MCH4368  |     |   |
+|Tuesday 11/18/2018|7:00 - 8:30|MCH4368|   |   |
 
 ## I know it is midterm week for all of us, I wish you the best of luck in your upcoming exams
 
