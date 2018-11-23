@@ -1,7 +1,7 @@
 class Solution {
     public int[] twoSum(int[] nums, int target) {
         // used a brute force method to solve;
-        // it seems there is HashMap method is faster;
+        // it seems there is HashMap method, which is faster;
         // but I don't understand;
         int[] res = new int[2];
         for(int i=0; i<nums.length; i++)
