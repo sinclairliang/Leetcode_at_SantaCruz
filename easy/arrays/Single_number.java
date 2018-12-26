@@ -21,7 +21,7 @@ class Solution {
                     // if found, compare the (i-1) and (i-2)
                     if (nums[i - 1] == nums[i - 2]) {
                         // if the previous two numbers are the same;
-                        // nums[i] must be the different one; 
+                        // nums[i] must be the different one;
                         return nums[i];
                     } else {
                         // oherwise, return nums[i-1]

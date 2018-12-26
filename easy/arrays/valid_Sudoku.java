@@ -11,9 +11,8 @@ class Solution {
                 int x = (3 * i) / 3 + j / 3;
                 int y = (i % 3) * 3 + j % 3;
                 // all the cells in that cube/square;
-                if ((board[i][j] != '.' && !row.add(board[i][j])) ||
-                        (board[j][i] != '.' && !col.add(board[j][i])) ||
-                        board[x][y] != '.' && !cube.add(board[x][y])) {
+                if ((board[i][j] != '.' && !row.add(board[i][j])) || (board[j][i] != '.' && !col.add(board[j][i]))
+                        || board[x][y] != '.' && !cube.add(board[x][y])) {
                     return false;
                 }
             }
