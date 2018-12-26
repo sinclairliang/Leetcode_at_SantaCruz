@@ -1,15 +1,15 @@
 class Solution {
     public boolean isAnagram(String s, String t) {
         // returns true if both empty strings;
-        if(s.length()==0||t.length()==0){
+        if (s.length() == 0 || t.length() == 0) {
             return true;
         }
-        
+
         char[] s_array = s.toCharArray();
         char[] t_array = t.toCharArray();
 
         // converts to char arrays;
-        
+
         Arrays.sort(s_array);
         Arrays.sort(t_array);
         // sort them;

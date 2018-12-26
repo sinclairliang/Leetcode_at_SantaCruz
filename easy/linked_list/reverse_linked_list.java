@@ -1,9 +1,9 @@
 /**
  * Definition for singly-linked list.
  * public class ListNode {
- *     int val;
- *     ListNode next;
- *     ListNode(int x) { val = x; }
+ * int val;
+ * ListNode next;
+ * ListNode(int x) { val = x; }
  * }
  */
 class Solution {
@@ -13,7 +13,7 @@ class Solution {
         ListNode prev = null;
         ListNode next = null;
         curr = head;
-        while(curr != null) {
+        while (curr != null) {
             next = curr.next;
             curr.next = prev;
             prev = curr;

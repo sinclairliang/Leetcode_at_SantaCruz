@@ -1,9 +1,9 @@
 /**
  * Definition for singly-linked list with a random pointer.
  * class RandomListNode {
- *     int label;
- *     RandomListNode next, random;
- *     RandomListNode(int x) { this.label = x; }
+ * int label;
+ * RandomListNode next, random;
+ * RandomListNode(int x) { this.label = x; }
  * };
  */
 public class Solution {
@@ -11,22 +11,20 @@ public class Solution {
         // my approach is to construct a hashmap that maps nodes from original list nd the new list;
         // then iterate the array twic
         // once to copy the nodes, second time to copy random pointers
-    
-        if(head == null)
-        {
+
+        if (head == null) {
             return null;
         }
         HashMap<RandomListNode, RandomListNode> map = new HashMap<RandomListNode, RandomListNode>();
         RandomListNode new_head = new RandomListNode(head.label);
-        
+
         RandomListNode p = head;
         RandomListNode q = new_head;
-        
+
         map.put(head, new_head);
-        
+
         p = p.next;
-        while(p != null)
-        {
+        while (p != null) {
             RandomListNode temp = new RandomListNode(p.label);
             map.put(p, temp);
             q.next = temp;
@@ -37,16 +35,12 @@ public class Solution {
 
         p = head;
         q = new_head;
-        
+
         // we still need random pointers
-        while(p!=null)
-        {
-            if(p.random != null)
-            {
+        while (p != null) {
+            if (p.random != null) {
                 q.random = map.get(p.random);
-            }
-            else
-            {
+            } else {
                 q.random = null;
             }
             q = q.next;
