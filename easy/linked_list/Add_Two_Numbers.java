@@ -3,7 +3,7 @@
  * next; ListNode(int x) { val = x; } }
  */
 class Solution {
-    private int carry_over = 0;
+    private int carry_over = 0; // used as a global  variable;
 
     public ListNode addTwoNumbers(ListNode l1, ListNode l2) {
         if (carry_over == 0) {
@@ -21,7 +21,7 @@ class Solution {
                 l2 = new ListNode(0);
             }
 
-            l1.val = l1.val += l2.val + carry_over;
+            l1.val = l1.val + l2.val + carry_over;
             carry_over--;
         }
 

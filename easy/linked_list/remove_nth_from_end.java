@@ -14,6 +14,7 @@ class Solution {
         ListNode slow = head;
 
         while (fast != null) {
+            // n :: the gap between fast and slow pointers;
             // maintaining the gap to be n;
             // let fast reach the end of the linked list;
             // slow will be the one we want to delete;
@@ -26,7 +27,7 @@ class Solution {
         }
 
         if (n < 0) {
-            // in this case, we actually minused n; 
+            // in this case, we actually minus n; 
             slow.next = slow.next.next;
         } else {
             // otherwise, we just remove the first node;
