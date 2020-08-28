@@ -1,10 +1,6 @@
 /**
- * Definition for singly-linked list.
- * public class ListNode {
- * int val;
- * ListNode next;
- * ListNode(int x) { val = x; }
- * }
+ * Definition for singly-linked list. public class ListNode { int val; ListNode
+ * next; ListNode(int x) { val = x; } }
  */
 class Solution {
     public boolean isPalindrome(ListNode head) {
@@ -34,7 +30,7 @@ class Solution {
         }
 
         while (slow != null) {
-            // now  go through the second half of the linked list;
+            // now go through the second half of the linked list;
             // and compare the value one by one;
             if (slow.val != stack.pop()) {
                 return false;

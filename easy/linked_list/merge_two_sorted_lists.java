@@ -1,10 +1,6 @@
 /**
- * Definition for singly-linked list.
- * public class ListNode {
- * int val;
- * ListNode next;
- * ListNode(int x) { val = x; }
- * }
+ * Definition for singly-linked list. public class ListNode { int val; ListNode
+ * next; ListNode(int x) { val = x; } }
  */
 
 class Solution {
@@ -17,7 +13,6 @@ class Solution {
         if (l2 == null) {
             return l1;
         }
-
 
         if (l1.val < l2.val) {
             l1.next = mergeTwoLists(l1.next, l2);

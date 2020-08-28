@@ -40,7 +40,7 @@ public class Solution {
         // d(fast) = 2a+2b = a+2b+c
         // ==> a = c;
         // now I set the dummyhead to head, x;
-        // let dummyhead and slow travel the same amout of distance
+        // let dummyhead and slow travel the same amount of distance
         // they will meet again at exact Y, the beginning of cycle;
         ListNode dummyhead = head;
         while (dummyhead != slow) {
