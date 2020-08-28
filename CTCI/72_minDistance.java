@@ -41,7 +41,7 @@ class Solution {
                 }
             }
         }
-        /test the water
+        // test the water
         return cost[m][n];
     }
 }
