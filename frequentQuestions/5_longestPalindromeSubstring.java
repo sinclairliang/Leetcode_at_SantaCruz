@@ -14,14 +14,14 @@ class Solution {
     }
 
     private void expandHelper(String s, int begin, int end) {
-        while (begin >= 0 && end < s.length() && s.charAt(begin)==s.charAt(end)) {
+        while (begin >= 0 && end < s.length() && s.charAt(begin) == s.charAt(end)) {
             begin--;
             end++;
         }
-        String cur = s.substring(begin+1, end);
+        String cur = s.substring(begin + 1, end);
         if (cur.length() > res.length()) {
             res = cur;
         }
-        
+
     }
 }
