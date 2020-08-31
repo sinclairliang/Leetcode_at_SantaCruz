@@ -7,7 +7,7 @@ class Solution {
             freq[s.charAt(i) - 'a']++;
         }
         for (int i = 0; i < s.length(); i++) {
-            // to check the frenquencies again,
+            // to check the frequencies again,
             // if the frequency == 1;
             // return that index;
             if (freq[s.charAt(i) - 'a'] == 1) {

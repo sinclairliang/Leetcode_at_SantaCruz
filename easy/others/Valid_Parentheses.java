@@ -14,7 +14,8 @@ class Solution {
                     return false;
                 }
                 char to_compare = stack.peek();
-                if (to_compare == '(' && parentheses[i] == ')' || to_compare == '[' && parentheses[i] == ']' || to_compare == '{' && parentheses[i] == '}') {
+                if (to_compare == '(' && parentheses[i] == ')' || to_compare == '[' && parentheses[i] == ']'
+                        || to_compare == '{' && parentheses[i] == '}') {
                     stack.pop();
                 } else {
                     return false;
